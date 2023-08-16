@@ -80,10 +80,4 @@ Please note if your build requires redefining the SOURCEROOT and APP_SOURCE_DIR 
 make clean BUILD_CONFIG=da14531 SOURCEROOT=<path_to_sdk>/6.0.16.1144 APP_SOURCE_DIR=<path_to_examples_directory>/BLE_SDK6_examples/connectivity/prox_reporter_makefile/src
 ```
 
-If no BUILD_CONFIG is specified when calling clean, all build configurations outputs will be cleaned. 
-
-### Verify
-
-A diff tool, such as [WinMerge](https://winmerge.org/?lang=en) on Windows, can be used to compare the makefile generated .hex to that produced by the prox_reporter Eclipse project to verifiy they are identical. 
-
-![winmerge](assets/winmerge.PNG)
+If no BUILD_CONFIG is specified when calling clean, all build configurations outputs will be cleaned.
